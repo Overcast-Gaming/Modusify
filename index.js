@@ -6,5 +6,6 @@ module.exports = function modusify(string = 'The quick brown fox jumps over the 
         const j = Math.floor(Math.random() * string.length);
         string.splice(j, 0, '...');
     }
-    return string.join(' ').replaceAll(' ...','...')
+    const re =  / \.\.\./g
+    return string.join(' ').toString().replaceAll(re,'...')
 };
