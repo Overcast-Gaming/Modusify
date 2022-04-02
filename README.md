@@ -1,8 +1,6 @@
 # Modusify
-<center>
   ![](https://img.shields.io/npm/v/modusify?style=flat-square)
-   ![](https://data.jsdelivr.com/v1/package/npm/modusify/badge)
-</center><br><br>
+   ![](https://data.jsdelivr.com/v1/package/npm/modusify/badge)<br><br>
 A joke package that makes your text as if it were spoken by Modus from Fallout 76.
 
 Usage
