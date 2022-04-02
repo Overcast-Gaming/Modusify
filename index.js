@@ -7,5 +7,5 @@ module.exports = function modusify(string = 'The quick brown fox jumps over the 
         string.splice(j, 0, '...');
     }
     const re =  / \.\.\./g
-    return string.join(' ').toString().replaceAll(re,'...')
+    return string.join(' ').toString().replace(re,'...')
 };
